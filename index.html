@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tienda Virtual </title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #333; color: white; padding: 1rem; text-align: center; }
+        nav { background: #444; padding: 0.5rem; }
+        nav a { color: white; margin: 0 1rem; text-decoration: none; }
+        section { padding: 2rem; }
+        footer { background: #333; color: white; text-align: center; padding: 1rem; }
+        form { max-width: 500px; margin: 0 auto; }
+        label, input, textarea { display: block; margin: 0.5rem 0; width: 100%; }
+    </style>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Mi Tienda Virtual *CESAR*</h1>
+    </header>
+
+    <!-- Barra de menú -->
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#formulario">Formulario</a>
+    </nav>
+
+    <!-- Cuerpo de la página -->
+    <section id="inicio">
+        <h2>Bienvenidos</h2>
+        <p>¡Descubre nuestros productos increíbles!</p>
+        <img src="https://via.placeholder.com/600x200?text=Imagen+de+tienda" alt="Tienda">
+    </section>
+
+    <!-- Formulario (en una pestaña separada) -->
+    <section id="formulario">
+        <h2>Formulario de Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2025 Mi Tienda Virtual. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
